@@ -1,0 +1,3 @@
+describe('GalleryComponent Tests', () => {
+
+});

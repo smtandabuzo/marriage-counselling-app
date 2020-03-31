@@ -16,6 +16,42 @@
                     </span>
                 </a>
             </li>
+            <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link" routerLink="about-us" (click)="collapseNavbar()">
+                                    <fa-icon icon="hand-spock" fixedWidth="true"></fa-icon>
+                                    <span jhiTranslate="global.menu.about-us">About Us</span>
+                                </a>
+                            </li>
+            <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link" routerLink="news" (click)="collapseNavbar()">
+                                    <fa-icon icon="hand-spock" fixedWidth="true"></fa-icon>
+                                    <span jhiTranslate="global.menu.news">News</span>
+                                </a>
+                            </li>
+            <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link" routerLink="calendar" (click)="collapseNavbar()">
+                                    <fa-icon icon="hand-spock" fixedWidth="true"></fa-icon>
+                                    <span jhiTranslate="global.menu.calendar">Calendar</span>
+                                </a>
+                            </li>
+            <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link" routerLink="gallery" (click)="collapseNavbar()">
+                                    <fa-icon icon="hand-spock" fixedWidth="true"></fa-icon>
+                                    <span jhiTranslate="global.menu.gallery">Gallery</span>
+                                </a>
+                            </li>
+            <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link" routerLink="register" (click)="collapseNavbar()">
+                                    <fa-icon icon="hand-spock" fixedWidth="true"></fa-icon>
+                                    <span jhiTranslate="global.menu.register">Register</span>
+                                </a>
+                            </li>
+            <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link" routerLink="contact-us" (click)="collapseNavbar()">
+                                    <fa-icon icon="hand-spock" fixedWidth="true"></fa-icon>
+                                    <span jhiTranslate="global.menu.contact-us">Contact Us</span>
+                                </a>
+                            </li>
             <!-- jhipster-needle-add-element-to-menu - JHipster will add new menu items here -->
             <li *ngSwitchCase="true" ngbDropdown class="nav-item dropdown pointer" display="dynamic" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
                 <a class="nav-link dropdown-toggle" ngbDropdownToggle href="javascript:void(0);" id="entity-menu">

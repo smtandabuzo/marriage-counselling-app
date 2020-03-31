@@ -7,6 +7,12 @@ import { IsisekoCoreModule } from 'app/core/core.module';
 import { IsisekoAppRoutingModule } from './app-routing.module';
 import { IsisekoHomeModule } from './home/home.module';
 import { IsisekoEntityModule } from './entities/entity.module';
+import { IsisekoAppAboutUsModule } from './about-us/about-us.module';
+import { IsisekoAppNewsModule } from './news/news.module';
+import { IsisekoAppCalendarModule } from './calendar/calendar.module';
+import { IsisekoAppGalleryModule } from './gallery/gallery.module';
+import { IsisekoAppRegisterModule } from './register/register.module';
+import { IsisekoAppContactUsModule } from './contact-us/contact-us.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { MainComponent } from './layouts/main/main.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
@@ -21,6 +27,12 @@ import { ErrorComponent } from './layouts/error/error.component';
     IsisekoSharedModule,
     IsisekoCoreModule,
     IsisekoHomeModule,
+    IsisekoAppAboutUsModule,
+    IsisekoAppNewsModule,
+    IsisekoAppCalendarModule,
+    IsisekoAppGalleryModule,
+    IsisekoAppRegisterModule,
+    IsisekoAppContactUsModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     IsisekoEntityModule,
     IsisekoAppRoutingModule

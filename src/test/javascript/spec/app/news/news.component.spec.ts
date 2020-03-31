@@ -1,0 +1,3 @@
+describe('NewsComponent Tests', () => {
+
+});
